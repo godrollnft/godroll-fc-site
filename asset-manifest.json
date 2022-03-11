@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.63a1fa26.css",
-    "main.js": "/static/js/main.99b8f612.js",
+    "main.js": "/static/js/main.1a603afd.js",
     "static/js/787.9775813f.chunk.js": "/static/js/787.9775813f.chunk.js",
     "static/media/3094.3748ff8d.mp4": "/static/media/3094.3748ff8d.3748ff8db6a5c417636e.mp4",
     "static/media/logo-foreverdao-400x400.jpg": "/static/media/logo-foreverdao-400x400.6e67a4b622c4a69929ee.jpg",
     "index.html": "/index.html",
     "main.63a1fa26.css.map": "/static/css/main.63a1fa26.css.map",
-    "main.99b8f612.js.map": "/static/js/main.99b8f612.js.map",
+    "main.1a603afd.js.map": "/static/js/main.1a603afd.js.map",
     "787.9775813f.chunk.js.map": "/static/js/787.9775813f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63a1fa26.css",
-    "static/js/main.99b8f612.js"
+    "static/js/main.1a603afd.js"
   ]
 }
