@@ -1,23 +1,36 @@
-import logo from './foreverdao-400x400.jpg';
 import './App.css';
 
-import { makeStyles } from '@material-ui/core/styles';
-// https://v4.mui.com/styles/basics/
-const useStyles = makeStyles({
-  root: {
-    
+import { createTheme, ThemeProvider } from '@material-ui/core/styles';
+import {Button} from '@material-ui/core';
+import {TextField} from '@material-ui/core';
+import Layout from './components/Layout.js';
+
+import purple from '@material-ui/core/colors/purple';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      light: '#b1931c',
+      main: '#fed229',
+      dark: '#fedb53',
+      contrastText: '#fff',
+    },
+    secondary: {
+      light: '#ff7961',
+      main: '#f44336',
+      dark: '#ba000d',
+      contrastText: '#00f',
+    },
   },
 });
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-          ForeverDAO
-        </h1>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <Layout/>
+      </div>
+    </ThemeProvider>
   );
 }
 
